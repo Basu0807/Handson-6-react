@@ -53,12 +53,12 @@ const ClickUpdate=()=>{
   <div className='box1'>
     <div>
     <label htmlFor='Course'>Course</label>
-  <input type='text' name='Course' id='Course' placeholder="Course" onChange={ClickHandle} required/>
+  <input type='text' name='Course' id='Course' placeholder="'Enter your Course" onChange={ClickHandle} required/>
     </div>
   
 <div>
 <label htmlFor='Batch'>Batch</label>
-  <input type='text' name='Batch' id='Batch' placeholder="Enter your Course" onChange={ClickHandle} required/>
+  <input type='text' name='Batch' id='Batch' placeholder="Enter your Batch" onChange={ClickHandle} required/>
 </div>
  
   </div>
